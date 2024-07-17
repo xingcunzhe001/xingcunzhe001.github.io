@@ -1,0 +1,42 @@
+body {
+	margin-top: 80px;	
+	font-family: Tahoma, Verdana, Segoe, sans-serif;	
+	text-align: center;
+}
+
+li {
+	vertical-align:top; 
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	left: -15px;
+}
+
+#output {
+	
+	width: 400px;
+	height: 120px;
+	font-size: 100px;
+	text-align: center;
+	
+	border-radius: 60px;
+	
+	margin: 20px auto;
+}
+
+button {
+    border-radius: 10px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    
+    font-size: 20px;
+    
+    padding: 15px 20px 10px 20px;
+    
+    text-align: center;
+    display: none;
+}
+
+/* Only button to be shown by default */
+#startPause {
+	display: inline;
+}
